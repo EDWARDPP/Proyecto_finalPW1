@@ -1,0 +1,105 @@
+div#hojaprincipal{
+  margin: auto;
+  background-color: black;
+  width: 1350px;
+  height: 1600px;
+  padding-top: 50px;
+}
+
+/* Estilos del encabezado*/
+div#encabezado{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: inherit;
+  width: 900px;
+  height: 90px;
+  margin: auto;
+  padding: 35px;
+}
+
+div#logo{
+  background-image: url(img5/logo.png);
+  background-size: 100% 99%;
+  width: 190px;
+  height: 170px;
+  border-radius: 50%;
+  border: 2px solid #6C0604;
+}
+
+div#enlaces{
+  display: flex;
+  width: 450px;
+  height: 100px;
+  margin-right: 80px;
+  background-color: black;
+  border-radius: 10%;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 4px  inherit;
+}
+
+div#inicio{
+  width: 190px;
+  height: 70px;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  border: solid 4px  #6C0604;
+  transition: 0.5s;
+}
+
+.i {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+div#inicio:hover{
+  width: 205px;
+  height: 80px;
+  background-color: #6C0604;
+  border: solid 4px  white;
+}
+/*Se terminan estilos de la galeria*/
+
+/* Estilos de la galeria*/
+div#contenedor{
+  background-color: inherit;
+  width: 1300px;
+  height: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria{
+  border-radius: 5%;
+  border: solid 2px #6C0604;
+  transition: 0.5s;
+}
+
+.n1{
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.galeria:hover{
+  width: 330px;
+  height: 220px;
+}
+/*Se terminan  estilos de la galeria*/
